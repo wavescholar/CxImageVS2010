@@ -1,0 +1,25 @@
+﻿Build started 3/19/2013 4:08:25 PM.
+     1>Project "C:\temp\cximage\demo\demoDLL.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\DebugDll\demoDLL.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         demoDLL.vcxproj -> C:\temp\cximage\x64\Debug\demoDLL.exe
+       Manifest:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\DebugDll\demoDLL.unsuccessfulbuild".
+         Touching ".\DebugDll\demoDLL.lastbuildstate".
+     1>Done Building Project "C:\temp\cximage\demo\demoDLL.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.10

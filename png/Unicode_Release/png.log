@@ -1,0 +1,70 @@
+﻿Build started 3/19/2013 2:59:04 PM.
+     1>Project "C:\temp\cximage\png\png.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Unicode_Release\png.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\zlib /Zi /nologo /W3 /WX- /O2 /Ob1 /D _WINDOWS /D WIN32 /D NDEBUG /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Unicode_Release\\" /Fd".\Unicode_Release\vc100.pdb" /Gd /TC /errorReport:prompt png.c pngerror.c pngget.c pngmem.c pngpread.c pngread.c pngrio.c pngrtran.c pngrutil.c pngset.c pngtrans.c pngvcrd.c pngwio.c pngwrite.c pngwtran.c pngwutil.c
+         png.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+     1>pngpread.c(527): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngpread.c(543): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngpread.c(708): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngpread.c(731): warning C4267: '-=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngpread.c(1280): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+     1>pngrutil.c(218): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngrutil.c(242): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngrutil.c(308): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngrutil.c(1067): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngrutil.c(1160): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         pngset.c
+     1>pngset.c(398): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngset.c(414): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngset.c(436): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngset.c(690): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngset.c(980): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngset.c(1025): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngset.c(1048): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngtrans.c
+         pngvcrd.c
+         pngwio.c
+     1>pngwio.c(53): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+     1>pngwutil.c(177): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>pngwutil.c(1349): warning C4267: 'function' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+     1>pngwutil.c(1567): warning C4267: '=' : conversion from 'size_t' to 'png_uint_32', possible loss of data
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\temp\cximage\x64\Unicode Release\png.lib" /NOLOGO .\Unicode_Release\png.obj
+         .\Unicode_Release\pngerror.obj
+         .\Unicode_Release\pngget.obj
+         .\Unicode_Release\pngmem.obj
+         .\Unicode_Release\pngpread.obj
+         .\Unicode_Release\pngread.obj
+         .\Unicode_Release\pngrio.obj
+         .\Unicode_Release\pngrtran.obj
+         .\Unicode_Release\pngrutil.obj
+         .\Unicode_Release\pngset.obj
+         .\Unicode_Release\pngtrans.obj
+         .\Unicode_Release\pngvcrd.obj
+         .\Unicode_Release\pngwio.obj
+         .\Unicode_Release\pngwrite.obj
+         .\Unicode_Release\pngwtran.obj
+         .\Unicode_Release\pngwutil.obj
+         png.vcxproj -> C:\temp\cximage\x64\Unicode Release\png.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Unicode_Release\png.unsuccessfulbuild".
+         Touching ".\Unicode_Release\png.lastbuildstate".
+     1>Done Building Project "C:\temp\cximage\png\png.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.91

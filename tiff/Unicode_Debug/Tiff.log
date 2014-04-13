@@ -1,0 +1,105 @@
+﻿Build started 3/19/2013 2:58:31 PM.
+     1>Project "C:\temp\cximage\tiff\Tiff.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Unicode_Debug\Tiff.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Unicode_Debug\Tiff.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\zlib /Zi /nologo /W3 /WX- /Od /D _LIB /D WIN32 /D _DEBUG /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Unicode_Debug\\" /Fd".\Unicode_Debug\vc100.pdb" /Gd /TC /errorReport:prompt fax3sm_winnt.c tif_aux.c tif_close.c tif_codec.c tif_compress.c tif_dir.c tif_dirinfo.c tif_dirread.c tif_dirwrite.c tif_dumpmode.c tif_error.c tif_fax3.c tif_flush.c tif_getimage.c tif_jpeg.c tif_luv.c tif_lzw.c tif_next.c tif_ojpeg.c tif_open.c tif_packbits.c tif_pixarlog.c tif_predict.c tif_print.c tif_read.c tif_strip.c tif_swab.c tif_thunder.c tif_tile.c tif_version.c tif_warning.c tif_write.c tif_zip.c
+         fax3sm_winnt.c
+         tif_aux.c
+         tif_close.c
+         tif_codec.c
+         tif_compress.c
+     1>tif_compress.c(200): warning C4267: 'function' : conversion from 'size_t' to 'tsize_t', possible loss of data
+         tif_dir.c
+     1>tif_dir.c(103): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+         tif_dirinfo.c
+         tif_dirread.c
+         tif_dirwrite.c
+     1>tif_dirwrite.c(872): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+         tif_dumpmode.c
+         tif_error.c
+         tif_fax3.c
+     1>tif_fax3.c(250): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>tif_fax3.c(253): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>tif_fax3.c(304): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>tif_fax3.c(307): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>tif_fax3.c(1390): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>tif_fax3.c(1393): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>tif_fax3.c(1500): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>tif_fax3.c(1503): warning C4244: '-=' : conversion from '__int64' to 'tsize_t', possible loss of data
+         tif_flush.c
+         tif_getimage.c
+         tif_jpeg.c
+     1>tif_jpeg.c(415): warning C4267: '-=' : conversion from 'size_t' to 'uint32', possible loss of data
+         tif_luv.c
+         tif_lzw.c
+         tif_next.c
+         tif_ojpeg.c
+     1>tif_ojpeg.c(1338): warning C4244: '=' : conversion from '__int64' to 'uint32', possible loss of data
+         tif_open.c
+     1>tif_open.c(145): warning C4267: 'function' : conversion from 'size_t' to 'tsize_t', possible loss of data
+         Generating Code...
+         Compiling...
+         tif_packbits.c
+     1>tif_packbits.c(91): warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+     1>tif_packbits.c(92): warning C4244: '+=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>tif_packbits.c(100): warning C4244: '+=' : conversion from '__int64' to 'tsize_t', possible loss of data
+     1>tif_packbits.c(176): warning C4244: '+=' : conversion from '__int64' to 'tsize_t', possible loss of data
+         tif_pixarlog.c
+         tif_predict.c
+         tif_print.c
+         tif_read.c
+         tif_strip.c
+         tif_swab.c
+         tif_thunder.c
+         tif_tile.c
+         tif_version.c
+         tif_warning.c
+         tif_write.c
+         tif_zip.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\temp\cximage\x64\Unicode Debug\Tiff.lib" /NOLOGO .\Unicode_Debug\fax3sm_winnt.obj
+         .\Unicode_Debug\tif_aux.obj
+         .\Unicode_Debug\tif_close.obj
+         .\Unicode_Debug\tif_codec.obj
+         .\Unicode_Debug\tif_compress.obj
+         .\Unicode_Debug\tif_dir.obj
+         .\Unicode_Debug\tif_dirinfo.obj
+         .\Unicode_Debug\tif_dirread.obj
+         .\Unicode_Debug\tif_dirwrite.obj
+         .\Unicode_Debug\tif_dumpmode.obj
+         .\Unicode_Debug\tif_error.obj
+         .\Unicode_Debug\tif_fax3.obj
+         .\Unicode_Debug\tif_flush.obj
+         .\Unicode_Debug\tif_getimage.obj
+         .\Unicode_Debug\tif_jpeg.obj
+         .\Unicode_Debug\tif_luv.obj
+         .\Unicode_Debug\tif_lzw.obj
+         .\Unicode_Debug\tif_next.obj
+         .\Unicode_Debug\tif_ojpeg.obj
+         .\Unicode_Debug\tif_open.obj
+         .\Unicode_Debug\tif_packbits.obj
+         .\Unicode_Debug\tif_pixarlog.obj
+         .\Unicode_Debug\tif_predict.obj
+         .\Unicode_Debug\tif_print.obj
+         .\Unicode_Debug\tif_read.obj
+         .\Unicode_Debug\tif_strip.obj
+         .\Unicode_Debug\tif_swab.obj
+         .\Unicode_Debug\tif_thunder.obj
+         .\Unicode_Debug\tif_tile.obj
+         .\Unicode_Debug\tif_version.obj
+         .\Unicode_Debug\tif_warning.obj
+         .\Unicode_Debug\tif_write.obj
+         .\Unicode_Debug\tif_zip.obj
+         Tiff.vcxproj -> C:\temp\cximage\x64\Unicode Debug\Tiff.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Unicode_Debug\Tiff.unsuccessfulbuild".
+         Touching ".\Unicode_Debug\Tiff.lastbuildstate".
+     1>Done Building Project "C:\temp\cximage\tiff\Tiff.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.01

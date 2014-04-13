@@ -1,0 +1,124 @@
+﻿Build started 3/19/2013 3:02:57 PM.
+     1>Project "C:\temp\cximage\CxImage\CxImageDLL\cximagemfcdll.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Unicode_Release\cximagemfcdll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../zlib /I../../jasper/include /Zi /nologo /W3 /WX- /O2 /Ob1 /D _WINDOWS /D _WINDLL /D _USRDLL /D JAS_WIN_MSVC_BUILD /D WIN32 /D NDEBUG /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _WIN32_IE=0x0400 /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Unicode_Release\cximagemfcdll.pch" /Fo".\Unicode_Release\\" /Fd".\Unicode_Release\vc100.pdb" /Gd /TP /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../zlib /I../../jasper/include /Zi /nologo /W3 /WX- /O2 /Ob1 /D _WINDOWS /D _WINDLL /D _USRDLL /D JAS_WIN_MSVC_BUILD /D WIN32 /D NDEBUG /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _WIN32_IE=0x0400 /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Unicode_Release\\" /Fd".\Unicode_Release\vc100.pdb" /Gd /TP /errorReport:prompt cximagemfcdll.cpp ..\tif_xfile.cpp ..\ximabmp.cpp ..\ximadsp.cpp ..\ximaenc.cpp ..\ximaexif.cpp ..\ximage.cpp ..\ximagif.cpp ..\ximahist.cpp ..\ximaico.cpp ..\ximainfo.cpp ..\ximaint.cpp ..\ximajas.cpp ..\ximajbg.cpp ..\ximajpg.cpp ..\ximalpha.cpp ..\ximalyr.cpp ..\ximamng.cpp ..\ximapal.cpp ..\ximapcx.cpp ..\ximapng.cpp ..\ximaraw.cpp ..\ximasel.cpp ..\ximaska.cpp ..\ximatga.cpp ..\ximath.cpp ..\ximatif.cpp ..\ximatran.cpp ..\ximawbmp.cpp ..\ximawmf.cpp ..\ximawnd.cpp ..\xmemfile.cpp
+         cximagemfcdll.cpp
+         tif_xfile.cpp
+         ximabmp.cpp
+         ximadsp.cpp
+         ximaenc.cpp
+     1>c:\temp\cximage\cximage\ximajas.h(65): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximajas.h(67): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximaraw.h(75): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximaraw.h(78): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         ximaexif.cpp
+     1>..\ximaexif.cpp(101): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\ximaexif.cpp(127): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         ximage.cpp
+         ximagif.cpp
+         ximahist.cpp
+         ximaico.cpp
+         ximainfo.cpp
+         ximaint.cpp
+         ximajas.cpp
+     1>c:\temp\cximage\cximage\ximajas.h(65): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximajas.h(67): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         ximajbg.cpp
+         ximajpg.cpp
+         ximalpha.cpp
+         ximalyr.cpp
+         ximamng.cpp
+     1>..\ximamng.cpp(45): warning C4267: '=' : conversion from 'size_t' to 'mng_uint32', possible loss of data
+     1>..\ximamng.cpp(54): warning C4267: '=' : conversion from 'size_t' to 'mng_uint32', possible loss of data
+         ximapal.cpp
+         ximapcx.cpp
+         Generating Code...
+         Compiling...
+         ximapng.cpp
+         ximaraw.cpp
+     1>c:\temp\cximage\cximage\ximaraw.h(75): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximaraw.h(78): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         ximasel.cpp
+         ximaska.cpp
+         ximatga.cpp
+         ximath.cpp
+         ximatif.cpp
+         ximatran.cpp
+         ximawbmp.cpp
+         ximawmf.cpp
+     1>..\ximawmf.cpp(298): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\ximawmf.cpp(330): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\ximawmf.cpp(345): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\ximawmf.cpp(411): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\ximawmf.cpp(422): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+         ximawnd.cpp
+     1>..\ximawnd.cpp(207): warning C4244: 'initializing' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+     1>..\ximawnd.cpp(1368): warning C4996: '_swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(544) : see declaration of '_swprintf'
+     1>..\ximawnd.cpp(1381): warning C4996: '_swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(544) : see declaration of '_swprintf'
+         xmemfile.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0809" /nologo /fo".\Unicode_Release\cximagemfcdll.res" cximagemfcdll.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\temp\cximage\x64\Unicode Release\cximagemfcdll.dll" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:".\Unicode_Release\cximagemfcdll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\temp\cximage\x64\Unicode Release\cximagemfcdll.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Unicode_Release\cximageu.lib" /MACHINE:X64 /DLL .\Unicode_Release\cximagemfcdll.res
+         .\Unicode_Release\cximagemfcdll.obj
+         .\Unicode_Release\StdAfx.obj
+         .\Unicode_Release\tif_xfile.obj
+         .\Unicode_Release\ximabmp.obj
+         .\Unicode_Release\ximadsp.obj
+         .\Unicode_Release\ximaenc.obj
+         .\Unicode_Release\ximaexif.obj
+         .\Unicode_Release\ximage.obj
+         .\Unicode_Release\ximagif.obj
+         .\Unicode_Release\ximahist.obj
+         .\Unicode_Release\ximaico.obj
+         .\Unicode_Release\ximainfo.obj
+         .\Unicode_Release\ximaint.obj
+         .\Unicode_Release\ximajas.obj
+         .\Unicode_Release\ximajbg.obj
+         .\Unicode_Release\ximajpg.obj
+         .\Unicode_Release\ximalpha.obj
+         .\Unicode_Release\ximalyr.obj
+         .\Unicode_Release\ximamng.obj
+         .\Unicode_Release\ximapal.obj
+         .\Unicode_Release\ximapcx.obj
+         .\Unicode_Release\ximapng.obj
+         .\Unicode_Release\ximaraw.obj
+         .\Unicode_Release\ximasel.obj
+         .\Unicode_Release\ximaska.obj
+         .\Unicode_Release\ximatga.obj
+         .\Unicode_Release\ximath.obj
+         .\Unicode_Release\ximatif.obj
+         .\Unicode_Release\ximatran.obj
+         .\Unicode_Release\ximawbmp.obj
+         .\Unicode_Release\ximawmf.obj
+         .\Unicode_Release\ximawnd.obj
+         .\Unicode_Release\xmemfile.obj
+         ..\..\x64\Debug\cximage.lib
+         ..\..\x64\Debug\jasper.lib
+         ..\..\x64\Debug\jbig.lib
+         ..\..\x64\Debug\Jpeg.lib
+         ..\..\x64\Debug\libdcr.lib
+         ..\..\x64\Debug\mng.lib
+         ..\..\x64\Debug\png.lib
+         ..\..\x64\Debug\Tiff.lib
+         ..\..\x64\Debug\zlib.lib
+            Creating library .\Unicode_Release\cximageu.lib and object .\Unicode_Release\cximageu.exp
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         cximagemfcdll.vcxproj -> C:\temp\cximage\x64\Unicode Release\cximagemfcdll.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\temp\cximage\x64\Unicode Release\cximagemfcdll.dll;#2" /manifest .\Unicode_Release\cximagemfcdll.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file ".\Unicode_Release\cximagemfcdll.unsuccessfulbuild".
+         Touching ".\Unicode_Release\cximagemfcdll.lastbuildstate".
+     1>Done Building Project "C:\temp\cximage\CxImage\CxImageDLL\cximagemfcdll.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.12

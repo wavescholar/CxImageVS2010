@@ -1,0 +1,37 @@
+﻿Build started 3/19/2013 2:59:26 PM.
+     1>Project "C:\temp\cximage\raw\libdcr.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Unicode_Release\libdcr.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /D WIN32 /D NDEBUG /D _LIB /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Unicode_Release\\" /Fd".\Unicode_Release\vc100.pdb" /Gd /TC /errorReport:prompt libdcr.c
+         libdcr.c
+     1>libdcr.c(5463): warning C4267: 'function' : conversion from 'size_t' to 'long', possible loss of data
+     1>libdcr.c(6462): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(6543): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>libdcr.c(7649): warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>libdcr.c(7842): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7847): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7848): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7849): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7858): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7859): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7862): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7863): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7864): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7865): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7867): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7868): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7870): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+     1>libdcr.c(7960): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>libdcr.c(7965): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\temp\cximage\x64\Unicode Release\libdcr.lib" /NOLOGO .\Unicode_Release\libdcr.obj
+         libdcr.vcxproj -> C:\temp\cximage\x64\Unicode Release\libdcr.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Unicode_Release\libdcr.unsuccessfulbuild".
+         Touching ".\Unicode_Release\libdcr.lastbuildstate".
+     1>Done Building Project "C:\temp\cximage\raw\libdcr.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.68

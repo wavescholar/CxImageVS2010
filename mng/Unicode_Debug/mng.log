@@ -1,0 +1,61 @@
+﻿Build started 3/19/2013 2:59:17 PM.
+     1>Project "C:\temp\cximage\mng\mng.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Unicode_Debug\mng.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Unicode_Debug\mng.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D MNG_SUPPORT_DISPLAY /D MNG_SUPPORT_READ /D MNG_SUPPORT_WRITE /D MNG_ACCESS_CHUNKS /D MNG_STORE_CHUNKS /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D MNG_ERROR_TELLTALE /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Unicode_Debug\\" /Fd".\Unicode_Debug\vc100.pdb" /Gd /TC /errorReport:prompt libmng_callback_xs.c libmng_chunk_descr.c libmng_chunk_io.c libmng_chunk_prc.c libmng_chunk_xs.c libmng_cms.c libmng_display.c libmng_dither.c libmng_error.c libmng_filter.c libmng_hlapi.c libmng_jpeg.c libmng_object_prc.c libmng_pixels.c libmng_prop_xs.c libmng_read.c libmng_trace.c libmng_write.c libmng_zlib.c
+         libmng_callback_xs.c
+         libmng_chunk_descr.c
+         libmng_chunk_io.c
+     1>libmng_chunk_io.c(2489): warning C4244: '=' : conversion from '__int64' to 'mng_uint32', possible loss of data
+     1>libmng_chunk_io.c(5536): warning C4244: '=' : conversion from '__int64' to 'mng_uint32', possible loss of data
+         libmng_chunk_prc.c
+         libmng_chunk_xs.c
+         libmng_cms.c
+         libmng_display.c
+         libmng_dither.c
+         libmng_error.c
+         libmng_filter.c
+         libmng_hlapi.c
+     1>libmng_hlapi.c(579): warning C4267: '=' : conversion from 'size_t' to 'mng_uint32', possible loss of data
+     1>libmng_hlapi.c(582): warning C4267: '=' : conversion from 'size_t' to 'mng_uint32', possible loss of data
+         libmng_jpeg.c
+         libmng_object_prc.c
+         libmng_pixels.c
+         libmng_prop_xs.c
+         libmng_read.c
+         libmng_trace.c
+         libmng_write.c
+         libmng_zlib.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\temp\cximage\x64\Unicode Debug\mng.lib" /NOLOGO .\Unicode_Debug\libmng_callback_xs.obj
+         .\Unicode_Debug\libmng_chunk_descr.obj
+         .\Unicode_Debug\libmng_chunk_io.obj
+         .\Unicode_Debug\libmng_chunk_prc.obj
+         .\Unicode_Debug\libmng_chunk_xs.obj
+         .\Unicode_Debug\libmng_cms.obj
+         .\Unicode_Debug\libmng_display.obj
+         .\Unicode_Debug\libmng_dither.obj
+         .\Unicode_Debug\libmng_error.obj
+         .\Unicode_Debug\libmng_filter.obj
+         .\Unicode_Debug\libmng_hlapi.obj
+         .\Unicode_Debug\libmng_jpeg.obj
+         .\Unicode_Debug\libmng_object_prc.obj
+         .\Unicode_Debug\libmng_pixels.obj
+         .\Unicode_Debug\libmng_prop_xs.obj
+         .\Unicode_Debug\libmng_read.obj
+         .\Unicode_Debug\libmng_trace.obj
+         .\Unicode_Debug\libmng_write.obj
+         .\Unicode_Debug\libmng_zlib.obj
+         mng.vcxproj -> C:\temp\cximage\x64\Unicode Debug\mng.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Unicode_Debug\mng.unsuccessfulbuild".
+         Touching ".\Unicode_Debug\mng.lastbuildstate".
+     1>Done Building Project "C:\temp\cximage\mng\mng.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.64

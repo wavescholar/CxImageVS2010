@@ -1,0 +1,43 @@
+﻿Build started 3/19/2013 2:58:14 PM.
+     1>Project "C:\temp\cximage\zlib\zlib.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Unicode_Debug\zlib.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Unicode_Debug\zlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D WIN32 /D _DEBUG /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Unicode_Debug\\" /Fd".\Unicode_Debug\vc100.pdb" /Gd /TC /errorReport:prompt adler32.c compress.c crc32.c deflate.c gzio.c infback.c inffast.c inflate.c inftrees.c trees.c uncompr.c zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzio.c
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\temp\cximage\x64\Unicode Debug\zlib.lib" /NOLOGO .\Unicode_Debug\adler32.obj
+         .\Unicode_Debug\compress.obj
+         .\Unicode_Debug\crc32.obj
+         .\Unicode_Debug\deflate.obj
+         .\Unicode_Debug\gzio.obj
+         .\Unicode_Debug\infback.obj
+         .\Unicode_Debug\inffast.obj
+         .\Unicode_Debug\inflate.obj
+         .\Unicode_Debug\inftrees.obj
+         .\Unicode_Debug\trees.obj
+         .\Unicode_Debug\uncompr.obj
+         .\Unicode_Debug\zutil.obj
+         zlib.vcxproj -> C:\temp\cximage\x64\Unicode Debug\zlib.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Unicode_Debug\zlib.unsuccessfulbuild".
+         Touching ".\Unicode_Debug\zlib.lastbuildstate".
+     1>Done Building Project "C:\temp\cximage\zlib\zlib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.79

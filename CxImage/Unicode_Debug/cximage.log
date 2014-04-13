@@ -1,0 +1,102 @@
+﻿Build started 3/19/2013 3:01:08 PM.
+     1>Project "C:\temp\cximage\CxImage\cximage.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Unicode_Debug\cximage.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Unicode_Debug\cximage.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\jpeg /I..\png /I..\zlib /I..\mng /I..\tiff /I..\j2k /I..\jasper\include /Zi /nologo /W3 /WX- /Od /D _LIB /D JAS_WIN_MSVC_BUILD /D WIN32 /D _DEBUG /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NON_CONFORMING_SWPRINTFS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Unicode_Debug\\" /Fd".\Unicode_Debug\vc100.pdb" /Gd /TP /errorReport:prompt tif_xfile.cpp ximabmp.cpp ximadsp.cpp ximaenc.cpp ximaexif.cpp xImage.cpp ximagif.cpp ximahist.cpp ximaico.cpp ximainfo.cpp ximaint.cpp ximajas.cpp ximajbg.cpp ximajpg.cpp ximalpha.cpp ximalyr.cpp ximamng.cpp ximapal.cpp ximapcx.cpp ximapng.cpp ximaraw.cpp ximasel.cpp ximaska.cpp ximatga.cpp ximath.cpp ximatif.cpp ximatran.cpp ximawbmp.cpp ximawmf.cpp ximawnd.cpp xmemfile.cpp
+         tif_xfile.cpp
+         ximabmp.cpp
+         ximadsp.cpp
+         ximaenc.cpp
+     1>c:\temp\cximage\cximage\ximajas.h(65): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximajas.h(67): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximaraw.h(75): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximaraw.h(78): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         ximaexif.cpp
+     1>ximaexif.cpp(101): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>ximaexif.cpp(127): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         xImage.cpp
+         ximagif.cpp
+         ximahist.cpp
+         ximaico.cpp
+         ximainfo.cpp
+         ximaint.cpp
+         ximajas.cpp
+     1>c:\temp\cximage\cximage\ximajas.h(65): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximajas.h(67): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         ximajbg.cpp
+         ximajpg.cpp
+         ximalpha.cpp
+         ximalyr.cpp
+         ximamng.cpp
+     1>ximamng.cpp(45): warning C4267: '=' : conversion from 'size_t' to 'mng_uint32', possible loss of data
+     1>ximamng.cpp(54): warning C4267: '=' : conversion from 'size_t' to 'mng_uint32', possible loss of data
+         ximapal.cpp
+         ximapcx.cpp
+         ximapng.cpp
+         Generating Code...
+         Compiling...
+         ximaraw.cpp
+     1>c:\temp\cximage\cximage\ximaraw.h(75): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximaraw.h(78): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         ximasel.cpp
+         ximaska.cpp
+         ximatga.cpp
+         ximath.cpp
+         ximatif.cpp
+         ximatran.cpp
+         ximawbmp.cpp
+         ximawmf.cpp
+     1>ximawmf.cpp(298): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>ximawmf.cpp(330): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>ximawmf.cpp(345): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>ximawmf.cpp(411): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>ximawmf.cpp(422): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+         ximawnd.cpp
+     1>ximawnd.cpp(207): warning C4244: 'initializing' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+         xmemfile.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\temp\cximage\x64\Unicode Debug\cximage.lib" /NOLOGO .\Unicode_Debug\tif_xfile.obj
+         .\Unicode_Debug\ximabmp.obj
+         .\Unicode_Debug\ximadsp.obj
+         .\Unicode_Debug\ximaenc.obj
+         .\Unicode_Debug\ximaexif.obj
+         .\Unicode_Debug\xImage.obj
+         .\Unicode_Debug\ximagif.obj
+         .\Unicode_Debug\ximahist.obj
+         .\Unicode_Debug\ximaico.obj
+         .\Unicode_Debug\ximainfo.obj
+         .\Unicode_Debug\ximaint.obj
+         .\Unicode_Debug\ximajas.obj
+         .\Unicode_Debug\ximajbg.obj
+         .\Unicode_Debug\ximajpg.obj
+         .\Unicode_Debug\ximalpha.obj
+         .\Unicode_Debug\ximalyr.obj
+         .\Unicode_Debug\ximamng.obj
+         .\Unicode_Debug\ximapal.obj
+         .\Unicode_Debug\ximapcx.obj
+         .\Unicode_Debug\ximapng.obj
+         .\Unicode_Debug\ximaraw.obj
+         .\Unicode_Debug\ximasel.obj
+         .\Unicode_Debug\ximaska.obj
+         .\Unicode_Debug\ximatga.obj
+         .\Unicode_Debug\ximath.obj
+         .\Unicode_Debug\ximatif.obj
+         .\Unicode_Debug\ximatran.obj
+         .\Unicode_Debug\ximawbmp.obj
+         .\Unicode_Debug\ximawmf.obj
+         .\Unicode_Debug\ximawnd.obj
+         .\Unicode_Debug\xmemfile.obj
+     1>ximajbg.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         cximage.vcxproj -> C:\temp\cximage\x64\Unicode Debug\cximage.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Unicode_Debug\cximage.unsuccessfulbuild".
+         Touching ".\Unicode_Debug\cximage.lastbuildstate".
+     1>Done Building Project "C:\temp\cximage\CxImage\cximage.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.72

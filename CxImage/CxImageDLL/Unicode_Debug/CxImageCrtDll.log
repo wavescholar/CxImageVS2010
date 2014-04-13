@@ -1,0 +1,168 @@
+﻿Build started 3/19/2013 3:02:11 PM.
+     1>Project "C:\temp\cximage\CxImage\CxImageDLL\CxImageCrtDll.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Unicode_Debug\CxImageCrtDll.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Unicode_Debug\CxImageCrtDll.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../zlib /I../../jasper/include /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D _USRDLL /D JAS_WIN_MSVC_BUILD /D WIN32 /D _DEBUG /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NON_CONFORMING_SWPRINTFS /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Unicode_Debug\\" /Fd".\Unicode_Debug\vc100.pdb" /Gd /TP /errorReport:prompt CxImageCrtDll.cpp ..\tif_xfile.cpp ..\ximabmp.cpp ..\ximadsp.cpp ..\ximaenc.cpp ..\ximaexif.cpp ..\ximage.cpp ..\ximagif.cpp ..\ximahist.cpp ..\ximaico.cpp ..\ximainfo.cpp ..\ximaint.cpp ..\ximajas.cpp ..\ximajbg.cpp ..\ximajpg.cpp ..\ximalpha.cpp ..\ximalyr.cpp ..\ximamng.cpp ..\ximapal.cpp ..\ximapcx.cpp ..\ximapng.cpp ..\ximaraw.cpp ..\ximasel.cpp ..\ximaska.cpp ..\ximatga.cpp ..\ximath.cpp ..\ximatif.cpp ..\ximatran.cpp ..\ximawbmp.cpp ..\ximawmf.cpp ..\ximawnd.cpp ..\xmemfile.cpp
+         CxImageCrtDll.cpp
+         tif_xfile.cpp
+         ximabmp.cpp
+         ximadsp.cpp
+         ximaenc.cpp
+     1>c:\temp\cximage\cximage\ximajas.h(65): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximajas.h(67): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximaraw.h(75): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximaraw.h(78): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         ximaexif.cpp
+     1>..\ximaexif.cpp(101): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\ximaexif.cpp(127): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         ximage.cpp
+         ximagif.cpp
+         ximahist.cpp
+         ximaico.cpp
+         ximainfo.cpp
+         ximaint.cpp
+         ximajas.cpp
+     1>c:\temp\cximage\cximage\ximajas.h(65): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximajas.h(67): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         ximajbg.cpp
+         ximajpg.cpp
+         ximalpha.cpp
+         ximalyr.cpp
+         ximamng.cpp
+     1>..\ximamng.cpp(45): warning C4267: '=' : conversion from 'size_t' to 'mng_uint32', possible loss of data
+     1>..\ximamng.cpp(54): warning C4267: '=' : conversion from 'size_t' to 'mng_uint32', possible loss of data
+         ximapal.cpp
+         ximapcx.cpp
+         Generating Code...
+         Compiling...
+         ximapng.cpp
+         ximaraw.cpp
+     1>c:\temp\cximage\cximage\ximaraw.h(75): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\temp\cximage\cximage\ximaraw.h(78): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         ximasel.cpp
+         ximaska.cpp
+         ximatga.cpp
+         ximath.cpp
+         ximatif.cpp
+         ximatran.cpp
+         ximawbmp.cpp
+         ximawmf.cpp
+     1>..\ximawmf.cpp(298): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\ximawmf.cpp(330): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\ximawmf.cpp(345): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\ximawmf.cpp(411): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>..\ximawmf.cpp(422): warning C4267: '=' : conversion from 'size_t' to 'long', possible loss of data
+         ximawnd.cpp
+     1>..\ximawnd.cpp(207): warning C4244: 'initializing' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+         xmemfile.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /l"0x0809" /nologo /fo".\Unicode_Debug\CxImageCrtDll.res" CxImageCrtDll.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Unicode_Debug\CxImageCrtDll.dll.embed.manifest.res" .\Unicode_Debug\CxImageCrtDll_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\temp\cximage\x64\Unicode Debug\CxImageCrtDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Unicode_Debug\CxImageCrtDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\temp\cximage\x64\Unicode Debug\CxImageCrtDll.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Unicode_Debug\cximagecrtdu.lib" /MACHINE:X64 /DLL .\Unicode_Debug\CxImageCrtDll.res
+         .\Unicode_Debug\CxImageCrtDll.dll.embed.manifest.res
+         .\Unicode_Debug\CxImageCrtDll.obj
+         .\Unicode_Debug\tif_xfile.obj
+         .\Unicode_Debug\ximabmp.obj
+         .\Unicode_Debug\ximadsp.obj
+         .\Unicode_Debug\ximaenc.obj
+         .\Unicode_Debug\ximaexif.obj
+         .\Unicode_Debug\ximage.obj
+         .\Unicode_Debug\ximagif.obj
+         .\Unicode_Debug\ximahist.obj
+         .\Unicode_Debug\ximaico.obj
+         .\Unicode_Debug\ximainfo.obj
+         .\Unicode_Debug\ximaint.obj
+         .\Unicode_Debug\ximajas.obj
+         .\Unicode_Debug\ximajbg.obj
+         .\Unicode_Debug\ximajpg.obj
+         .\Unicode_Debug\ximalpha.obj
+         .\Unicode_Debug\ximalyr.obj
+         .\Unicode_Debug\ximamng.obj
+         .\Unicode_Debug\ximapal.obj
+         .\Unicode_Debug\ximapcx.obj
+         .\Unicode_Debug\ximapng.obj
+         .\Unicode_Debug\ximaraw.obj
+         .\Unicode_Debug\ximasel.obj
+         .\Unicode_Debug\ximaska.obj
+         .\Unicode_Debug\ximatga.obj
+         .\Unicode_Debug\ximath.obj
+         .\Unicode_Debug\ximatif.obj
+         .\Unicode_Debug\ximatran.obj
+         .\Unicode_Debug\ximawbmp.obj
+         .\Unicode_Debug\ximawmf.obj
+         .\Unicode_Debug\ximawnd.obj
+         .\Unicode_Debug\xmemfile.obj
+         ..\..\x64\Debug\cximage.lib
+         ..\..\x64\Debug\jasper.lib
+         ..\..\x64\Debug\jbig.lib
+         ..\..\x64\Debug\Jpeg.lib
+         ..\..\x64\Debug\libdcr.lib
+         ..\..\x64\Debug\mng.lib
+         ..\..\x64\Debug\png.lib
+         ..\..\x64\Debug\Tiff.lib
+         ..\..\x64\Debug\zlib.lib
+            Creating library .\Unicode_Debug\cximagecrtdu.lib and object .\Unicode_Debug\cximagecrtdu.exp
+         CxImageCrtDll.vcxproj -> C:\temp\cximage\x64\Unicode Debug\CxImageCrtDll.dll
+       Manifest:
+         Deleting file ".\Unicode_Debug\CxImageCrtDll.dll.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Unicode_Debug\CxImageCrtDll.dll.embed.manifest" /manifest .\Unicode_Debug\CxImageCrtDll.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Unicode_Debug\CxImageCrtDll.dll.embed.manifest.res" .\Unicode_Debug\CxImageCrtDll_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\temp\cximage\x64\Unicode Debug\CxImageCrtDll.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Unicode_Debug\CxImageCrtDll.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\temp\cximage\x64\Unicode Debug\CxImageCrtDll.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Unicode_Debug\cximagecrtdu.lib" /MACHINE:X64 /DLL .\Unicode_Debug\CxImageCrtDll.res
+         .\Unicode_Debug\CxImageCrtDll.dll.embed.manifest.res
+         .\Unicode_Debug\CxImageCrtDll.obj
+         .\Unicode_Debug\tif_xfile.obj
+         .\Unicode_Debug\ximabmp.obj
+         .\Unicode_Debug\ximadsp.obj
+         .\Unicode_Debug\ximaenc.obj
+         .\Unicode_Debug\ximaexif.obj
+         .\Unicode_Debug\ximage.obj
+         .\Unicode_Debug\ximagif.obj
+         .\Unicode_Debug\ximahist.obj
+         .\Unicode_Debug\ximaico.obj
+         .\Unicode_Debug\ximainfo.obj
+         .\Unicode_Debug\ximaint.obj
+         .\Unicode_Debug\ximajas.obj
+         .\Unicode_Debug\ximajbg.obj
+         .\Unicode_Debug\ximajpg.obj
+         .\Unicode_Debug\ximalpha.obj
+         .\Unicode_Debug\ximalyr.obj
+         .\Unicode_Debug\ximamng.obj
+         .\Unicode_Debug\ximapal.obj
+         .\Unicode_Debug\ximapcx.obj
+         .\Unicode_Debug\ximapng.obj
+         .\Unicode_Debug\ximaraw.obj
+         .\Unicode_Debug\ximasel.obj
+         .\Unicode_Debug\ximaska.obj
+         .\Unicode_Debug\ximatga.obj
+         .\Unicode_Debug\ximath.obj
+         .\Unicode_Debug\ximatif.obj
+         .\Unicode_Debug\ximatran.obj
+         .\Unicode_Debug\ximawbmp.obj
+         .\Unicode_Debug\ximawmf.obj
+         .\Unicode_Debug\ximawnd.obj
+         .\Unicode_Debug\xmemfile.obj
+         ..\..\x64\Debug\cximage.lib
+         ..\..\x64\Debug\jasper.lib
+         ..\..\x64\Debug\jbig.lib
+         ..\..\x64\Debug\Jpeg.lib
+         ..\..\x64\Debug\libdcr.lib
+         ..\..\x64\Debug\mng.lib
+         ..\..\x64\Debug\png.lib
+         ..\..\x64\Debug\Tiff.lib
+         ..\..\x64\Debug\zlib.lib
+         CxImageCrtDll.vcxproj -> C:\temp\cximage\x64\Unicode Debug\CxImageCrtDll.dll
+       FinalizeBuildStatus:
+         Deleting file ".\Unicode_Debug\CxImageCrtDll.unsuccessfulbuild".
+         Touching ".\Unicode_Debug\CxImageCrtDll.lastbuildstate".
+     1>Done Building Project "C:\temp\cximage\CxImage\CxImageDLL\CxImageCrtDll.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.91

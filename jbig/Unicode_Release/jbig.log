@@ -1,0 +1,25 @@
+﻿Build started 3/19/2013 2:58:10 PM.
+     1>Project "C:\temp\cximage\jbig\jbig.vcxproj" on node 2 (rebuild target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\temp\cximage\x64\Unicode Release\".
+       InitializeBuildStatus:
+         Creating ".\Unicode_Release\jbig.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /D _LIB /D WIN32 /D NDEBUG /D UNICODE /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Unicode_Release\\" /Fd".\Unicode_Release\vc100.pdb" /Gd /TC /errorReport:prompt jbig.c jbig_tab.c
+         jbig.c
+     1>jbig.c(2667): warning C4267: '-=' : conversion from 'size_t' to 'unsigned long', possible loss of data
+     1>jbig.c(3121): warning C4244: '=' : conversion from '__int64' to 'unsigned long', possible loss of data
+         jbig_tab.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\temp\cximage\x64\Unicode Release\jbig.lib" /NOLOGO .\Unicode_Release\jbig.obj
+         .\Unicode_Release\jbig_tab.obj
+         jbig.vcxproj -> C:\temp\cximage\x64\Unicode Release\jbig.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Unicode_Release\jbig.unsuccessfulbuild".
+         Touching ".\Unicode_Release\jbig.lastbuildstate".
+     1>Done Building Project "C:\temp\cximage\jbig\jbig.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.81

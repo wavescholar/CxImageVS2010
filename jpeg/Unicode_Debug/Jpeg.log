@@ -1,0 +1,119 @@
+﻿Build started 3/19/2013 2:59:40 PM.
+     1>Project "C:\temp\cximage\jpeg\Jpeg.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Unicode_Debug\Jpeg.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Unicode_Debug\Jpeg.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D WIN32 /D _DEBUG /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Unicode_Debug\\" /Fd".\Unicode_Debug\vc100.pdb" /Gd /TC /errorReport:prompt Jcapimin.c Jcapistd.c Jccoefct.c Jccolor.c Jcdctmgr.c Jchuff.c Jcinit.c Jcmainct.c Jcmarker.c Jcmaster.c Jcomapi.c Jcparam.c Jcphuff.c Jcprepct.c Jcsample.c Jctrans.c Jdapimin.c Jdapistd.c Jdatadst.c Jdatasrc.c Jdcoefct.c Jdcolor.c Jddctmgr.c Jdhuff.c Jdinput.c Jdmainct.c Jdmarker.c Jdmaster.c Jdmerge.c Jdphuff.c Jdpostct.c Jdsample.c Jdtrans.c Jerror.c Jfdctflt.c Jfdctfst.c Jfdctint.c Jidctflt.c Jidctfst.c Jidctint.c Jidctred.c Jmemmgr.c Jmemnobs.c Jquant1.c Jquant2.c Jutils.c
+         Jcapimin.c
+         Jcapistd.c
+         Jccoefct.c
+         Jccolor.c
+         Jcdctmgr.c
+         Jchuff.c
+         Jcinit.c
+         Jcmainct.c
+         Jcmarker.c
+         Jcmaster.c
+         Jcomapi.c
+         Jcparam.c
+         Jcphuff.c
+         Jcprepct.c
+         Jcsample.c
+         Jctrans.c
+         Jdapimin.c
+         Jdapistd.c
+         Jdatadst.c
+         Jdatasrc.c
+         Generating Code...
+         Compiling...
+         Jdcoefct.c
+         Jdcolor.c
+         Jddctmgr.c
+         Jdhuff.c
+         Jdinput.c
+         Jdmainct.c
+         Jdmarker.c
+         Jdmaster.c
+         Jdmerge.c
+         Jdphuff.c
+         Jdpostct.c
+         Jdsample.c
+         Jdtrans.c
+         Jerror.c
+         Jfdctflt.c
+         Jfdctfst.c
+         Jfdctint.c
+         Jidctflt.c
+         Jidctfst.c
+         Jidctint.c
+         Generating Code...
+         Compiling...
+         Jidctred.c
+         Jmemmgr.c
+     1>Jmemmgr.c(306): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
+     1>Jmemmgr.c(366): warning C4267: '+=' : conversion from 'size_t' to 'long', possible loss of data
+     1>Jmemmgr.c(976): warning C4267: '-=' : conversion from 'size_t' to 'long', possible loss of data
+     1>Jmemmgr.c(990): warning C4267: '-=' : conversion from 'size_t' to 'long', possible loss of data
+         Jmemnobs.c
+         Jquant1.c
+         Jquant2.c
+         Jutils.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\temp\cximage\x64\Unicode Debug\Jpeg.lib" /NOLOGO .\Unicode_Debug\Jcapimin.obj
+         .\Unicode_Debug\Jcapistd.obj
+         .\Unicode_Debug\Jccoefct.obj
+         .\Unicode_Debug\Jccolor.obj
+         .\Unicode_Debug\Jcdctmgr.obj
+         .\Unicode_Debug\Jchuff.obj
+         .\Unicode_Debug\Jcinit.obj
+         .\Unicode_Debug\Jcmainct.obj
+         .\Unicode_Debug\Jcmarker.obj
+         .\Unicode_Debug\Jcmaster.obj
+         .\Unicode_Debug\Jcomapi.obj
+         .\Unicode_Debug\Jcparam.obj
+         .\Unicode_Debug\Jcphuff.obj
+         .\Unicode_Debug\Jcprepct.obj
+         .\Unicode_Debug\Jcsample.obj
+         .\Unicode_Debug\Jctrans.obj
+         .\Unicode_Debug\Jdapimin.obj
+         .\Unicode_Debug\Jdapistd.obj
+         .\Unicode_Debug\Jdatadst.obj
+         .\Unicode_Debug\Jdatasrc.obj
+         .\Unicode_Debug\Jdcoefct.obj
+         .\Unicode_Debug\Jdcolor.obj
+         .\Unicode_Debug\Jddctmgr.obj
+         .\Unicode_Debug\Jdhuff.obj
+         .\Unicode_Debug\Jdinput.obj
+         .\Unicode_Debug\Jdmainct.obj
+         .\Unicode_Debug\Jdmarker.obj
+         .\Unicode_Debug\Jdmaster.obj
+         .\Unicode_Debug\Jdmerge.obj
+         .\Unicode_Debug\Jdphuff.obj
+         .\Unicode_Debug\Jdpostct.obj
+         .\Unicode_Debug\Jdsample.obj
+         .\Unicode_Debug\Jdtrans.obj
+         .\Unicode_Debug\Jerror.obj
+         .\Unicode_Debug\Jfdctflt.obj
+         .\Unicode_Debug\Jfdctfst.obj
+         .\Unicode_Debug\Jfdctint.obj
+         .\Unicode_Debug\Jidctflt.obj
+         .\Unicode_Debug\Jidctfst.obj
+         .\Unicode_Debug\Jidctint.obj
+         .\Unicode_Debug\Jidctred.obj
+         .\Unicode_Debug\Jmemmgr.obj
+         .\Unicode_Debug\Jmemnobs.obj
+         .\Unicode_Debug\Jquant1.obj
+         .\Unicode_Debug\Jquant2.obj
+         .\Unicode_Debug\Jutils.obj
+         Jpeg.vcxproj -> C:\temp\cximage\x64\Unicode Debug\Jpeg.lib
+       FinalizeBuildStatus:
+         Deleting file ".\Unicode_Debug\Jpeg.unsuccessfulbuild".
+         Touching ".\Unicode_Debug\Jpeg.lastbuildstate".
+     1>Done Building Project "C:\temp\cximage\jpeg\Jpeg.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.08

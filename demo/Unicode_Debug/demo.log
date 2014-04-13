@@ -1,0 +1,146 @@
+﻿Build started 3/19/2013 3:08:07 PM.
+     1>Project "C:\temp\cximage\demo\demo.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Unicode_Debug\demo.lastbuildstate".
+       InitializeBuildStatus:
+         Touching ".\Unicode_Debug\demo.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\cximage /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D VATI_EXTENSIONS /D WIN32 /D _DEBUG /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NON_CONFORMING_SWPRINTFS /D _WIN32_IE=0x0400 /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"stdafx.h" /Fp".\Unicode_Debug\demo.pch" /Fo".\Unicode_Debug\\" /Fd".\Unicode_Debug\vc100.pdb" /Gd /TP /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\cximage /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D VATI_EXTENSIONS /D WIN32 /D _DEBUG /D UNICODE /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NON_CONFORMING_SWPRINTFS /D _WIN32_IE=0x0400 /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo".\Unicode_Debug\\" /Fd".\Unicode_Debug\vc100.pdb" /Gd /TP /errorReport:prompt BCMenu.cpp ChildFrm.cpp demo.cpp demoDoc.cpp demoView.cpp DlgCapture.cpp DlgColorize.cpp DlgCombine.cpp DlgCustomFilter.cpp DlgDataExt.cpp DlgDecBpp.cpp DlgDither.cpp DlgExpand.cpp DlgFFT.cpp DlgFloodFill.cpp DlgGamma.cpp DlgHisto.cpp DlgIncBpp.cpp DlgJpeg.cpp DlgMix.cpp DlgOpacity.cpp DlgOptions.cpp DlgPalette.cpp DlgRepair.cpp DlgResample.cpp DlgRotate.cpp DlgShadow.cpp DlgSkew.cpp DlgText.cpp DlgThreshold.cpp DlgURL.cpp logomdi.cpp MainFrm.cpp Quantize.cpp TwainCpp.cpp xTargetButton.cpp
+         BCMenu.cpp
+     1>BCMenu.cpp(225): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(235): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(246): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(250): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(252): warning C4244: '=' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(262): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(979): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>BCMenu.cpp(1543): warning C4244: '=' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(1708): warning C4244: '=' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(1744): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(1769): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(1820): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>BCMenu.cpp(1830): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>BCMenu.cpp(1834): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>BCMenu.cpp(1874): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'UINT', possible loss of data
+     1>BCMenu.cpp(1972): warning C4018: '<' : signed/unsigned mismatch
+     1>BCMenu.cpp(2591): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(2594): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(2604): warning C4244: '=' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(2633): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(2655): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(2658): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(2668): warning C4244: '=' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(2968): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'UINT', possible loss of data
+     1>BCMenu.cpp(3063): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(3077): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+     1>BCMenu.cpp(3107): warning C4244: 'initializing' : conversion from 'INT_PTR' to 'int', possible loss of data
+         ChildFrm.cpp
+         demo.cpp
+     1>demo.cpp(887): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         demoDoc.cpp
+     1>demoDoc.cpp(416): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         demoView.cpp
+         DlgCapture.cpp
+         DlgColorize.cpp
+         DlgCombine.cpp
+         DlgCustomFilter.cpp
+         DlgDataExt.cpp
+         DlgDecBpp.cpp
+         DlgDither.cpp
+         DlgExpand.cpp
+         DlgFFT.cpp
+         DlgFloodFill.cpp
+         DlgGamma.cpp
+         DlgHisto.cpp
+         DlgIncBpp.cpp
+         DlgJpeg.cpp
+         DlgMix.cpp
+     1>DlgMix.cpp(179): warning C4244: '=' : conversion from 'DWORD_PTR' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         DlgOpacity.cpp
+         DlgOptions.cpp
+     1>C:\temp\cximage\cximage\ximaraw.h(75): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\temp\cximage\cximage\ximaraw.h(78): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         DlgPalette.cpp
+         DlgRepair.cpp
+         DlgResample.cpp
+         DlgRotate.cpp
+         DlgShadow.cpp
+         DlgSkew.cpp
+         DlgText.cpp
+         DlgThreshold.cpp
+         DlgURL.cpp
+         logomdi.cpp
+         MainFrm.cpp
+     1>MainFrm.cpp(189): warning C4244: 'initializing' : conversion from 'SIZE_T' to 'DWORD', possible loss of data
+         Quantize.cpp
+         TwainCpp.cpp
+         xTargetButton.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D VATI_EXTENSIONS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0809" /nologo /fo".\Unicode_Debug\demo.res" demo.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Unicode_Debug\demo.exe.embed.manifest.res" .\Unicode_Debug\demo_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\temp\cximage\x64\Unicode Debug\demo.exe" /INCREMENTAL /NOLOGO wininet.lib /MANIFEST /ManifestFile:".\Unicode_Debug\demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\temp\cximage\x64\Unicode Debug\demo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\temp\cximage\x64\Unicode Debug\demo.lib" /MACHINE:X64 .\Unicode_Debug\demo.res
+         .\Unicode_Debug\demo.exe.embed.manifest.res
+         .\Unicode_Debug\BCMenu.obj
+         .\Unicode_Debug\ChildFrm.obj
+         .\Unicode_Debug\demo.obj
+         .\Unicode_Debug\demoDoc.obj
+         .\Unicode_Debug\demoView.obj
+         .\Unicode_Debug\DlgCapture.obj
+         .\Unicode_Debug\DlgColorize.obj
+         .\Unicode_Debug\DlgCombine.obj
+         .\Unicode_Debug\DlgCustomFilter.obj
+         .\Unicode_Debug\DlgDataExt.obj
+         .\Unicode_Debug\DlgDecBpp.obj
+         .\Unicode_Debug\DlgDither.obj
+         .\Unicode_Debug\DlgExpand.obj
+         .\Unicode_Debug\DlgFFT.obj
+         .\Unicode_Debug\DlgFloodFill.obj
+         .\Unicode_Debug\DlgGamma.obj
+         .\Unicode_Debug\DlgHisto.obj
+         .\Unicode_Debug\DlgIncBpp.obj
+         .\Unicode_Debug\DlgJpeg.obj
+         .\Unicode_Debug\DlgMix.obj
+         .\Unicode_Debug\DlgOpacity.obj
+         .\Unicode_Debug\DlgOptions.obj
+         .\Unicode_Debug\DlgPalette.obj
+         .\Unicode_Debug\DlgRepair.obj
+         .\Unicode_Debug\DlgResample.obj
+         .\Unicode_Debug\DlgRotate.obj
+         .\Unicode_Debug\DlgShadow.obj
+         .\Unicode_Debug\DlgSkew.obj
+         .\Unicode_Debug\DlgText.obj
+         .\Unicode_Debug\DlgThreshold.obj
+         .\Unicode_Debug\DlgURL.obj
+         .\Unicode_Debug\logomdi.obj
+         .\Unicode_Debug\MainFrm.obj
+         .\Unicode_Debug\Quantize.obj
+         .\Unicode_Debug\StdAfx.obj
+         .\Unicode_Debug\TwainCpp.obj
+         .\Unicode_Debug\xTargetButton.obj
+         ..\x64\Debug\cximage.lib
+         ..\x64\Debug\jasper.lib
+         ..\x64\Debug\jbig.lib
+         ..\x64\Debug\Jpeg.lib
+         ..\x64\Debug\libdcr.lib
+         ..\x64\Debug\mng.lib
+         ..\x64\Debug\png.lib
+         ..\x64\Debug\Tiff.lib
+         ..\x64\Debug\zlib.lib
+            Creating library C:\temp\cximage\x64\Unicode Debug\demo.lib and object C:\temp\cximage\x64\Unicode Debug\demo.exp
+     1>demoDoc.obj : error LNK2019: unresolved external symbol "public: static unsigned long __cdecl CxImage::GetTypeIdFromName(wchar_t const *)" (?GetTypeIdFromName@CxImage@@SAKPEB_W@Z) referenced in function "public: int __cdecl CDemoDoc::FindType(class ATL::CStringT<wchar_t,class StrTraitMFC_DLL<wchar_t,class ATL::ChTraitsCRT<wchar_t> > > const &)" (?FindType@CDemoDoc@@QEAAHAEBV?$CStringT@_WV?$StrTraitMFC_DLL@_WV?$ChTraitsCRT@_W@ATL@@@@@ATL@@@Z)
+     1>demoDoc.obj : error LNK2019: unresolved external symbol "public: bool __cdecl CxImage::Load(wchar_t const *,unsigned long)" (?Load@CxImage@@QEAA_NPEB_WK@Z) referenced in function "public: virtual int __cdecl CDemoDoc::OnOpenDocument(wchar_t const *)" (?OnOpenDocument@CDemoDoc@@UEAAHPEB_W@Z)
+     1>demoDoc.obj : error LNK2019: unresolved external symbol "public: __cdecl CxImage::CxImage(wchar_t const *,unsigned long)" (??0CxImage@@QEAA@PEB_WK@Z) referenced in function "public: virtual int __cdecl CDemoDoc::OnOpenDocument(wchar_t const *)" (?OnOpenDocument@CDemoDoc@@UEAAHPEB_W@Z)
+     1>demoDoc.obj : error LNK2019: unresolved external symbol "public: bool __cdecl CxImage::Save(wchar_t const *,unsigned long)" (?Save@CxImage@@QEAA_NPEB_WK@Z) referenced in function "public: virtual int __cdecl CDemoDoc::OnSaveDocument(wchar_t const *)" (?OnSaveDocument@CDemoDoc@@UEAAHPEB_W@Z)
+     1>C:\temp\cximage\x64\Unicode Debug\demo.exe : fatal error LNK1120: 4 unresolved externals
+     1>Done Building Project "C:\temp\cximage\demo\demo.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:39.42
